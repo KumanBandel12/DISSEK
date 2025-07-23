@@ -1,0 +1,25 @@
+---
+title: "`r params$main_title`"
+output: word_document
+params:
+  main_title: "Laporan Hasil Analisis"
+  subtitle: ""
+  main_content: "Tidak ada konten yang diberikan."
+---
+
+# `r params$main_title`
+
+```{r, echo=FALSE, results='asis'}
+# Menampilkan subjudul jika ada, menggunakan sintaks Markdown
+if (!is.null(params$subtitle) && params$subtitle != "") {
+  cat(paste0("## ", params$subtitle))
+}
+```
+
+
+
+```{r, echo=FALSE, results='asis'}
+cat("```text\n")
+cat(params$main_content)
+cat("\n```")
+```

@@ -1,0 +1,13 @@
+name: DISSEK
+title: DISSEK
+username: komstat8-2ks2
+account: komstat8-2ks2
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 15111803
+bundleId: 10659555
+url: https://komstat8-2ks2.shinyapps.io/DISSEK/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: Pakta Integritas UAS Komputasi Statistik.docx|safe_render_dir/texput.log|texput.log
